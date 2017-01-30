@@ -4,7 +4,7 @@ Netops Automation Workshop Lab Information
 Inside a box, is another box, and inside that box....
 
 
-1. **Host machine:** Windows 10 on Supermicro SuperServer E200-8D
+1. **Host machine:** Windows 10 (not cuz I wanted to) on a Supermicro SuperServer E200-8D
 
 1. **Virtualization/Hypervisor:**  VMware Workstation Pros 12.5.2
 
@@ -18,3 +18,5 @@ Inside a box, is another box, and inside that box....
 
 
 FWIW, I've been practicing the smaller concepts from Week 2 and Week 3 on our production network. :)  At the same time, in my daily job, terrible Python scripts (my college Pascal instructor would be apalled) is my crutch until Ansible becomes ingrained in my brain.
+
+Also, I tried like mad - literally, it was near insanity - to run Ubuntu on my Host Machine, but I just could not VMWare Workstation Pro 12.5 to play nice with the vagrant plugin and vagrant box.  Everything would install just fine, but there were a few problems with VMNet's disappearing both just within VMWare (after days, i did figure out a workaround for that) and then upon Vagrant-up of the NMS box.  I can provide even more detail for the curious.  A few cocktails were consumed during this time period and very little sleep was had.  
